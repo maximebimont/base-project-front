@@ -1,8 +1,13 @@
 /* src/styles.css (complet) */
 :root{
   /* Brand (jaune) */
-  --brand-50:#fffbeb; --brand-100:#fef3c7; --brand-200:#fde68a; --brand-300:#fcd34d;
-  --brand-400:#fbbf24; --brand-500:#f59e0b; --brand-600:#d97706;
+  --brand-50:#fffbeb;
+  --brand-100:#fef3c7;
+  --brand-200:#fde68a;
+  --brand-300:#fcd34d;
+  --brand-400:#fbbf24;
+  --brand-500:#f59e0b;
+  --brand-600:#d97706;
 
   /* Neutres (clair) */
   --bg:#fafafa;

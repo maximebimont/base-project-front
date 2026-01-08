@@ -55,11 +55,12 @@
   border-radius:999px;
   font-weight:650;
   font-size:.85rem;
-  border:1px solid rgba(245,158,11,.28);
-  background: rgba(245,158,11,.14);
-  color:#92400e;
+  background: var(--brand-50);
+  border: 1px solid rgba(245,158,11,.35);
+  color: #7c2d12;
   white-space:nowrap;
 }
+
 
 .price{
   font-weight:750;

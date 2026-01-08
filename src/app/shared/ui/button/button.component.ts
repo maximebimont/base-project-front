@@ -10,4 +10,6 @@ import { Component, Input } from '@angular/core';
 export class ButtonComponent {
   @Input() type: 'button' | 'submit' | 'reset' = 'button';
   @Input() disabled = false;
+
+  @Input() variant: 'primary' | 'secondary' = 'primary';
 }

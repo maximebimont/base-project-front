@@ -2,7 +2,10 @@
   <h1>Collector Shop</h1>
 
   <h2>Bouton</h2>
-  <ui-button>Acheter</ui-button>
+  <div class="buttons">
+    <ui-button>Principal</ui-button>
+    <ui-button variant="secondary">Secondaire</ui-button>
+  </div>
 
   <h2>Carte pour les Produits</h2>
   <div class="cards">
@@ -24,6 +27,8 @@
   </div>
 
   <h2>Loader</h2>
+  <ui-loader *ngIf="loading"></ui-loader>
+
 </main>
 
 <router-outlet />
