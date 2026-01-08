@@ -15,7 +15,6 @@ export class NavbarComponent {
   @Input() items: NavItem[] = [
     { label: 'À propos', href: '#' },
     { label: 'Produits', href: '#' },
-    { label: 'Vendre', href: '#' },
-    { label: 'Contact', href: '#' },
+    { label: 'Vendre', href: '#' }
   ];
 }
