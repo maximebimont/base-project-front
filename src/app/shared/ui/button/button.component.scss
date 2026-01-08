@@ -1,0 +1,14 @@
+.btn{
+  padding:.6rem 1rem;
+  border-radius:.8rem;
+  border:1px solid rgba(245,158,11,.35);
+  background: linear-gradient(135deg, var(--brand-500), var(--brand-300));
+  color:#111827;
+  font-weight:650;
+  cursor:pointer;
+  transition:transform .12s ease, filter .12s ease, box-shadow .12s ease;
+  box-shadow: 0 8px 18px rgba(245,158,11,.18);
+}
+.btn:hover{ filter:brightness(1.02); }
+.btn:active{ transform:translateY(1px); }
+.btn:disabled{ opacity:.6; cursor:not-allowed; transform:none; box-shadow:none; }
