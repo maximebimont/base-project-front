@@ -1,0 +1,14 @@
+<header class="nav">
+  <div class="inner">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <span class="brand__name">{{ brand }}</span>
+    </div>
+
+    <nav class="links" aria-label="Navigation principale">
+      <a class="link" *ngFor="let item of items" [href]="item.href">
+        {{ item.label }}
+      </a>
+    </nav>
+  </div>
+</header>

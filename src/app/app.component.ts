@@ -5,6 +5,7 @@ import { LoaderComponent } from './shared/ui/loader/loader.component';
 import { ButtonComponent } from './shared/ui/button/button.component';
 import {CardComponent} from './shared/ui/card/card.component';
 import {FooterComponent} from './shared/layout/footer/footer.component';
+import {NavbarComponent} from './shared/layout/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import {FooterComponent} from './shared/layout/footer/footer.component';
     LoaderComponent,
     ButtonComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
