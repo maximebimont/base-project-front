@@ -1,9 +1,29 @@
 <main class="main">
   <h1>Collector Shop</h1>
+
   <h2>Bouton</h2>
   <ui-button>Acheter</ui-button>
-  <h2>Card</h2>
-  <ui-card/>
+
+  <h2>Carte pour les Produits</h2>
+  <div class="cards">
+    <ui-card
+      name="La Joconde"
+      [price]="8000"
+      badge="Rare"
+    />
+    <ui-card
+      name="Les bijoux de la Couronne"
+      [price]="3000"
+      badge="Edition Limitée"
+    />
+    <ui-card
+      name="T-Max"
+      [price]="2600"
+      badge="Volé par Chaker"
+    />
+  </div>
+
+  <h2>Loader</h2>
 </main>
 
 <router-outlet />

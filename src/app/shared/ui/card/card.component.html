@@ -1,0 +1,13 @@
+<article class="card">
+  <div class="media">
+    <img *ngIf="imageUrl" [src]="imageUrl" [alt]="name" (error)="imageUrl = ''" />
+    <div *ngIf="!imageUrl" class="media__placeholder" aria-hidden="true"></div>
+  </div>
+
+  <div class="top">
+    <span class="badge">{{ badge }}</span>
+    <span class="price">{{ price | number:'1.0-0' }} €</span>
+  </div>
+
+  <h3 class="name">{{ name }}</h3>
+</article>
