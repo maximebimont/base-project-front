@@ -4,11 +4,19 @@ import { NgIf } from '@angular/common';
 import { LoaderComponent } from './shared/ui/loader/loader.component';
 import { ButtonComponent } from './shared/ui/button/button.component';
 import {CardComponent} from './shared/ui/card/card.component';
+import {FooterComponent} from './shared/layout/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgIf, LoaderComponent, ButtonComponent, CardComponent],
+  imports: [
+    RouterOutlet,
+    NgIf,
+    LoaderComponent,
+    ButtonComponent,
+    CardComponent,
+    FooterComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

@@ -1,0 +1,43 @@
+.footer{
+  margin-top: 2rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--line);
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.inner{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.brand{
+  font-weight: 800;
+  letter-spacing: -.2px;
+}
+
+.copy{
+  margin-top: .35rem;
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+.links{
+  display:flex;
+  gap: .9rem;
+  flex-wrap: wrap;
+}
+
+.link{
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+.link:hover{
+  color: var(--text);
+  text-decoration: underline;
+}
