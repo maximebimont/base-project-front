@@ -6,7 +6,13 @@
     </div>
 
     <nav class="links" aria-label="Navigation principale">
-      <a class="link" *ngFor="let item of items" [href]="item.href">
+      <a
+        class="link"
+        *ngFor="let item of items"
+        [routerLink]="item.href"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: item.exact ?? false }"
+      >
         {{ item.label }}
       </a>
     </nav>

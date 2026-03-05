@@ -1,32 +1,9 @@
-<ui-navbar/>
+<div class="layout">
+  <ui-navbar></ui-navbar>
 
-<main class="main">
-  <div class="buttons">
-    <ui-button>Principal</ui-button>
-    <ui-button variant="secondary">Secondaire</ui-button>
-  </div>
-  <br>
-  <div class="cards">
-    <ui-card
-      name="La Joconde"
-      [price]="8000"
-      badge="Rare"
-    />
-    <ui-card
-      name="Les bijoux de la Couronne"
-      [price]="3000"
-      badge="Edition Limitée"
-    />
-    <ui-card
-      name="T-Max"
-      [price]="2600"
-      badge="Volé par Chaker"
-    />
-  </div>
-  <br>
-  <ui-loader *ngIf="loading"></ui-loader>
-</main>
+  <main class="main">
+    <router-outlet></router-outlet>
+  </main>
 
-<ui-footer/>
-
-<router-outlet />
+  <ui-footer></ui-footer>
+</div>
